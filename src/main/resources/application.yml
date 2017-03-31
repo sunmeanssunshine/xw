@@ -1,0 +1,16 @@
+---
+spring:
+  profiles: dev
+  datasource:
+    name: mydb
+    url: jdbc:mysql://192.168.75.47:3306/coral?useUnicode=true&amp;characterEncoding=UTF-8&allowMultiQueries=true
+    username: newuser
+    password: newuser
+    initialize: false
+    initialSize: 1
+    minIdle: 1
+    maxActive: 5
+
+mybatis:
+  mapperLocations: classpath*:src.main.java.model/mapper/*.xml
+  typeAliasesPackage: src.main.java.model.entity
