@@ -1,8 +1,9 @@
 package model.entity;
 
+import org.apache.commons.beanutils.BeanUtils;
+
 import java.util.HashSet;
 import java.util.Set;
-import java.util.TreeSet;
 
 /**
  * Created by xuwei on 2017/5/16.
@@ -62,10 +63,12 @@ public class User {
         Set<String> stringSet = new HashSet<>();
         String str = "123";
         String str1 = new String("123");
-        String str2 = new String(str);
+        StringBuffer str2 = new StringBuffer("123");
         System.out.println("str1:" + str1.hashCode() + "   str2:" + str2.hashCode());
         stringSet.add(str1);
-        stringSet.add(str2);
+        stringSet.add(str2.toString());
         System.out.println(stringSet.size());
+
+        //BeanUtils.;
     }
 }
