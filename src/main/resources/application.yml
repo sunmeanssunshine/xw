@@ -14,3 +14,7 @@ spring:
 mybatis:
   mapperLocations: classpath*:src.main.java.model/mapper/*.xml
   typeAliasesPackage: src.main.java.model.entity
+
+---
+value:
+  string: mybatis.mapperLocations@
