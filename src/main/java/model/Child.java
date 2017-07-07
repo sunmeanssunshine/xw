@@ -6,6 +6,24 @@ package model;
 public class Child extends Father {
     private int a;
     private int length;
+    private String status;
+    private Long time;
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public Long getTime() {
+        return time;
+    }
+
+    public void setTime(Long time) {
+        this.time = time;
+    }
 
     public int getLength() {
         return length;
