@@ -44,7 +44,7 @@ public class Testttt {
         //ConcurrentMap
 
         String ss = "1126328225514272.346523";
-        System.out.println(ss.split(".")[0]);
+        System.out.println(ss.split("\\.")[0]);
 
     }
 }
