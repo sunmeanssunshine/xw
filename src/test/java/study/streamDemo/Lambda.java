@@ -14,7 +14,7 @@ import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Collectors.maxBy;
-
+import static java.util.stream.Collectors.toList;
 
 
 /**
@@ -93,6 +93,24 @@ public class Lambda {
         Stream.iterate(0, n -> n + 3).limit(10). forEach(x -> System.out.print(x + " "));
 
         Files.list(new File("../").toPath()).forEach(System.out::println);
+
+        Stream.of("one", "two", "three", "four")
+                         .filter(e -> e.length() > 2)
+                         .peek(e -> System.out.println("Filtered value: " + e))
+                         .map(String::toUpperCase)
+                         .peek(e -> System.out.println("Mapped value: " + e))
+                         .collect(toList());
+        System.out.println("----------------------------------");
+        Stream.of("d2", "a2", "a1", "b3", "c")
+                .filter(s -> {
+                    System.out.println("filter: " + s);
+                    return s.startsWith("a");
+                })
+                .map(s -> {
+                    System.out.println("map: " + s);
+                    return s.toUpperCase();
+                })
+                .forEach(s -> System.out.println("forEach: " + s));
 
     }
 
