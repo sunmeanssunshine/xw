@@ -14,12 +14,13 @@ public class CFTest {
         CompletableFuture<Void> future = CompletableFuture
                 .supplyAsync(() -> cale(50))
                 .thenCompose(i -> CompletableFuture.supplyAsync(() -> cale(i)))
+                .thenCompose(i -> CompletableFuture.supplyAsync(() -> cale2(i)))
                 .exceptionally(ex -> {
                     System.out.println("ex.toString() = " + ex.toString());
                     return 0;
                 })
                 .thenApply(i -> Integer.toString(i))
-                .thenApply(str -> "\"" + str + "\"")
+                .thenApply(str -> "result is" + "\"" + str + "\"")
                 .thenAccept(msg -> System.out.println(Thread.currentThread().getName() + ": " + msg));
         System.out.println("-----------");
         future.get();
@@ -31,6 +32,7 @@ public class CFTest {
         CompletableFuture<Void> future = CompletableFuture
                 .supplyAsync(() -> cale(50))
                 .thenCompose(i -> CompletableFuture.supplyAsync(() -> cale(i)))
+                .thenCompose(i -> CompletableFuture.supplyAsync(() -> cale2(i)))
                 .exceptionally(ex -> {
                     System.out.println("ex.toString() = " + ex.toString());
                     return 0;
@@ -44,12 +46,21 @@ public class CFTest {
 
     public static Integer cale(Integer para) {
         try {
-            Thread.sleep(1000);
+            Thread.sleep(1_000);
 
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         return para * para;
+    }
+    public static Integer cale2(Integer para) {
+        try {
+            Thread.sleep(2_000);
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return para + para;
     }
 
 }

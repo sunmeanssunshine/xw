@@ -4,12 +4,15 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.Future;
 import java.util.concurrent.RecursiveTask;
+import java.util.function.LongSupplier;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
 
 /**
  * Created by xuwei on 2017/7/17.
  */
 public class CountTask extends RecursiveTask<Long> {
-    private static final Long THRESHOLD = 200L;
+    private static final Long THRESHOLD = 1_000_000L;
     private Long start;
     private Long end;
 
@@ -50,15 +53,21 @@ public class CountTask extends RecursiveTask<Long> {
         return sum;
     }
 
+    public static Long parallelCompute(Long start, Long end){
+        return  LongStream.range(start, end).parallel().sum();
+    }
+
     public static void main(String[] args) {
-        Long t1 = System.currentTimeMillis();
+
         ForkJoinPool forkJoinPool = new ForkJoinPool();
 
         CountTask task = new CountTask(1L,50_000_000L);
+        Long t1 = System.currentTimeMillis();
         Future<Long> result = forkJoinPool.submit(task);
-        Long t2 = System.currentTimeMillis() - t1;
         try {
-            System.out.println("forkjoin  time: " + t2 + " result: " +result.get());
+            Long reslut = result.get();
+            Long t2 = System.currentTimeMillis() - t1;
+            System.out.println(" result: " + reslut + "  forkjoin  time: " + t2 );
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
@@ -66,9 +75,16 @@ public class CountTask extends RecursiveTask<Long> {
         }
 
         Long t3 = System.currentTimeMillis();
-        Long resultCommon = CountTask.commonCompute(1L, 40000000L);
+        Long resultCommon = CountTask.commonCompute(1L, 50_000_000L);
         Long t4 = System.currentTimeMillis() - t3;
-        System.out.println("common  time: " + t4 + " result: " + resultCommon);
+        System.out.println(" result: " + resultCommon + " common  time: " + t4);
+
+        Long t5 = System.currentTimeMillis();
+        Long resultParallel = CountTask.parallelCompute(1L, 50_000_001L);
+        Long t6 = System.currentTimeMillis() - t5;
+        System.out.println(" result: " + resultParallel + " parallel  time: " + t6);
+
+
 
     }
 }

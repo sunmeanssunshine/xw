@@ -1,11 +1,13 @@
 package study;
 
 import model.Father;
+import model.entity.User;
 import org.assertj.core.util.Lists;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -23,6 +25,11 @@ public class StreamTest {
                 .distinct()
                 .collect(Collectors.toList());
         System.out.println(l);
+
+        Predicate<User> filter1 = (user -> true);
+        Predicate<User> filter2 = filter1.and(filter1).negate().or(filter1);
+
+        //Stream.of("1","2","3").filter(e-> )
 
         List<Father> fatherList = new ArrayList<>();
         Father father1 = new Father();

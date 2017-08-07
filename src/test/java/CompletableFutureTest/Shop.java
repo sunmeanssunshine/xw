@@ -1,13 +1,13 @@
 package CompletableFutureTest;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-import org.apache.commons.lang3.RandomUtils;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
+import java.util.stream.Collectors;
 
 import static java.util.stream.Collectors.toList;
 
@@ -20,6 +20,9 @@ public class Shop {
 
     public Shop(String bestShop) {
         this.name = bestShop;
+    }
+
+    public Shop() {
     }
 
     public static void main(String[] args) {
@@ -42,14 +45,33 @@ public class Shop {
 
 
     public static List<String> findPrices(List<Shop> shops, String product) {
+        return shops.stream()
+                .map(shop -> String.format("%s price is %.2f",
+                        shop.getName(), shop.getPrice(product)))
+                .collect(toList());
+    }
+
+    public static List<String> findPricesParallel(List<Shop> shops, String product) {
         return shops.stream().parallel()
                 .map(shop -> String.format("%s price is %.2f",
                         shop.getName(), shop.getPrice(product)))
                 .collect(toList());
     }
 
+    public static List<String> findPricesAsync(List<Shop> shops, String product) {
+        List<CompletableFuture<String>> priceFutures =
+                shops.stream()
+                        .map(shop -> CompletableFuture.supplyAsync(
+                                () -> shop.getName() + " price is " +
+                                        shop.getPrice(product)))
+                        .collect(Collectors.toList());
+        return priceFutures.stream()
+                .map(CompletableFuture::join)
+                .collect(toList());
+    }
+
     private static void doSomethingElse() {
-        delay();
+        delay();//延时1s
     }
 
     public Future<Double> getPriceAsync(String product) {
