@@ -1,7 +1,5 @@
 package study.streamDemo;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-
 /**
  * Created by xuwei on 2017/6/23.
  */
