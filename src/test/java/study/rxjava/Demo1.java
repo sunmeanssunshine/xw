@@ -12,6 +12,10 @@ import java.util.List;
 /**
  * Created by xuwei on 2017/7/7.
  */
+
+/**
+ * rxjava1.x
+ */
 public class Demo1 {
     public static void main(String[] args) {
         Subscriber<String> subscriber = new Subscriber<String>() {

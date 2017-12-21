@@ -13,6 +13,7 @@ public class AccountingSync implements Runnable{
     public  void increase(){
         i++;
     }
+
     @Override
     public synchronized void run() {
         for(int j=0;j<1000000;j++){
@@ -23,17 +24,15 @@ public class AccountingSync implements Runnable{
         AccountingSync instance=new AccountingSync();
         Thread t1=new Thread(instance);
         Thread t2=new Thread(instance);
-        Thread t3=new Thread(instance);
         t1.start();
         t2.start();
-        t3.start();
         t1.join();
         t2.join();
-        t3.join();
         System.out.println(i);
 
         //-------------------
 
+        i = 0;
         Thread t5=new Thread(new AccountingSync());
         //new新实例
         Thread t6=new Thread(new AccountingSync());

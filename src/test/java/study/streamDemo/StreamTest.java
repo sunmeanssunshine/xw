@@ -9,6 +9,8 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
+import static java.util.stream.Collectors.joining;
+
 /**
  * Created by xuwei on 2017/8/2.
  */
@@ -23,7 +25,20 @@ public class StreamTest {
                     }else {
                         return false;
                     }
-                }).findFirst().ifPresent(e-> System.out.println("result: " + e));
+                }).findAny().ifPresent(e-> System.out.println("result: " + e));
+    }
+
+    @Test
+    public void test1() {
+        List<String> l = new ArrayList(Arrays.asList("one", "two"));
+        Stream<String> sl = l.stream();
+        l.add("three");
+        String s = sl.collect(joining(" "));
+        System.out.println(s);
+        /**
+         * one two three
+         * Laziness-seeking
+         */
     }
 
     public static void main(String[] args) {
@@ -32,6 +47,7 @@ public class StreamTest {
         List<int []> result = num1.stream()
                 .flatMap(i -> num2.stream().map(j -> new int[]{i,j}))
                 .collect(Collectors.toList());
+        result.stream().forEach(System.out::println);
         System.out.println("---");
         List<int []> result1 = new ArrayList<>();
         for (Integer i : num1){

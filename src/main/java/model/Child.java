@@ -1,8 +1,15 @@
 package model;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 /**
  * Created by xuwei on 2017/3/8.
  */
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
 public class Child extends Father {
     private int a;
     private int length;
