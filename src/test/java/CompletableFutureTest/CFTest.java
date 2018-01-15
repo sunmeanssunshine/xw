@@ -42,6 +42,7 @@ public class CFTest {
                 .thenAccept(msg -> System.out.println(Thread.currentThread().getName() + ": " + msg));
         System.out.println("-----------");
         future.get();
+        System.out.println("^^^^^^^^^^^");
     }
 
     public static Integer cale(Integer para) {

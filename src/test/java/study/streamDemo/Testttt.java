@@ -1,6 +1,13 @@
 package study.streamDemo;
 
+import org.junit.Test;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.StringJoiner;
 import java.util.concurrent.ConcurrentMap;
+import java.util.concurrent.ForkJoinPool;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -46,5 +53,84 @@ public class Testttt {
         String ss = "1126328225514272.346523";
         System.out.println(ss.split("\\.")[0]);
 
+    }
+
+    @Test
+    public void test1(){
+        Stream.of("d2", "a2", "b1", "b3", "c")
+                .map(s -> {
+                    System.out.println("map: " + s);
+                    return s.toUpperCase();
+                })
+                .filter(s -> {
+                    System.out.println("filter: " + s);
+                    return s.startsWith("A");
+                })
+                .forEach(s -> System.out.println("forEach: " + s));
+    }
+
+    @Test
+    public void test2() {
+        List<Person> persons =
+                Arrays.asList(
+                        new Person("Max", 18),
+                        new Person("Peter", 23),
+                        new Person("Pamela", 23),
+                        new Person("David", 12));
+        Collector<Person, StringJoiner, String> personNameCollector =
+                Collector.of(
+                        () -> new StringJoiner(" | "),  // supplier
+                        (j, p) -> j.add(p.name.toUpperCase()),  // accumulator
+                        (j1, j2) -> j1.merge(j2),               // combiner
+                        StringJoiner::toString);                // finisher
+        String names = persons
+                .stream()
+                .collect(personNameCollector);
+
+        System.out.println(names);
+
+        Integer ageSum = persons
+                .stream()
+                .reduce(0,
+                        (sum, p) -> {
+                            System.out.format("accumulator: sum=%s; person=%s\n", sum, p);
+                            return sum += p.age;
+                        },
+                        (sum1, sum2) -> {
+                            System.out.format("combiner: sum1=%s; sum2=%s\n", sum1, sum2);
+                            return sum1 + sum2;
+                        });
+
+    }
+
+    @Test
+    public void test3() {
+        StringJoiner sj = new StringJoiner(":", "[", "]");
+        sj.add("George").add("Sally").add("Fred");
+        System.out.println(sj.toString());
+    }
+
+    @Test
+    public void test4() {
+        ForkJoinPool commonPool = ForkJoinPool.commonPool();
+        System.out.println(commonPool.getParallelism());    // 3
+    }
+
+    @Test
+    public void test5() {
+        Arrays.asList("a1", "a2", "b1", "c2", "c1")
+                .parallelStream()
+                .filter(s -> {
+                    System.out.format("filter: %s [%s]\n",
+                            s, Thread.currentThread().getName());
+                    return true;
+                })
+                .map(s -> {
+                    System.out.format("map: %s [%s]\n",
+                            s, Thread.currentThread().getName());
+                    return s.toUpperCase();
+                })
+                .forEach(s -> System.out.format("forEach: %s [%s]\n",
+                        s, Thread.currentThread().getName()));
     }
 }

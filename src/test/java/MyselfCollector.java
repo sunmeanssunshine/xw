@@ -16,6 +16,8 @@ public class MyselfCollector implements Collector<JsonRootBean, List<ArchResult>
 
     List<String> selfTree = new ArrayList<>(Arrays.asList("specialty", "floor"));
 
+
+
     /**
      * supplier方法会返回一个在调用时创建累加器的函数
      * @return
