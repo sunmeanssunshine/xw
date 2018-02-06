@@ -1,5 +1,10 @@
 package study;
 
+import org.junit.Test;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Created by xuwei on 2017/2/27.
  */
@@ -30,5 +35,13 @@ public class TT <T>{
         cctt.getT().setString("dd");
         System.out.println(cctt.getT().getString());
 
+    }
+
+    @Test
+    public void test1() {
+        String s = "g18o73o2d3";
+        Pattern pattern = Pattern.compile("g[0-9].o[0-9].o[0-9].d[0-9].");
+        Matcher matcher = pattern.matcher(s);
+        System.out.println(matcher.matches());
     }
 }

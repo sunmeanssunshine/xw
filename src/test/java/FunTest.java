@@ -2,10 +2,11 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+import lombok.val;
 /**
  * Created by xuwei on 2017/11/16.
  */
+
 public class FunTest {
     public static void main(String[] args) {
         Map<String,String> memberMap = new HashMap<>();
