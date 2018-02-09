@@ -12,8 +12,8 @@ public class CallableDemo {
         ExecutorService exe = Executors.newCachedThreadPool();
         List<Future<String>> futures = new ArrayList<>();
         Long t1 = System.currentTimeMillis();
-        System.out.println(t1);
-        for (int i=0; i<5; i++){
+        System.out.println("begin: " + t1);
+        for (int i=0; i<1000; i++){
             futures.add(exe.submit(() -> {
                 Thread.sleep(1_000);//模拟耗时
                 return "a";
@@ -21,14 +21,14 @@ public class CallableDemo {
         }
         for (Future<String> fs : futures){
             try {
-                fs.get();
+                System.out.println(fs.get());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } catch (ExecutionException e) {
                 e.printStackTrace();
             }
         }
-        System.out.println(System.currentTimeMillis()-t1);
+        System.out.println("end: " + (System.currentTimeMillis()-t1));
         /**
          1500606257117
          a
@@ -36,7 +36,7 @@ public class CallableDemo {
          a
          a
          a
-         5041  最终耗时5s多，说明异步
+         1019  最终耗时1s多，说明异步
          *
          */
     }
