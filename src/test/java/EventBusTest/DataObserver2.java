@@ -1,5 +1,6 @@
 package EventBusTest;
 
+import com.google.common.eventbus.AllowConcurrentEvents;
 import com.google.common.eventbus.Subscribe;
 
 /**
@@ -7,6 +8,7 @@ import com.google.common.eventbus.Subscribe;
  */
 public class DataObserver2 {
     @Subscribe
+    @AllowConcurrentEvents
     public void func(Integer msg) {
         System.out.println("DataObserver2 Integer msg: " + msg);
     }
