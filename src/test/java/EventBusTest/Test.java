@@ -26,4 +26,12 @@ public class Test {
 
         System.out.println("============    end           =============");
     }
+
+    @org.junit.Test
+    public void test2() {
+        DataObserver1 observer1 = new DataObserver1();
+        EventBusCenter.register(observer1);
+
+        EventBusCenter.post("test2");
+    }
 }

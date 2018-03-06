@@ -13,7 +13,7 @@ public class AtomicIntegerTest {
         System.out.println(atomicInteger.get());
         System.out.println(atomicInteger.getAndIncrement());
         System.out.println(atomicInteger.compareAndSet(1, 1));
-        System.out.println(atomicInteger.compareAndExchange(1,2));
+        //System.out.println(atomicInteger.compareAndExchange(1,2));
         System.out.println(atomicInteger.get());
     }
 }
