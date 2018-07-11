@@ -6,6 +6,7 @@ import com.google.common.base.Splitter;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Date;
 
 /**
  * Created by xuwei on 2018/2/27.
@@ -59,6 +60,14 @@ public class StringTest {
         /**
          * constantName
          */
+    }
+
+    @Test
+    public void test2() {
+        String str1 = new StringBuffer("计算机").append("软件").toString();
+        String str2 = new StringBuffer("js").append("va").toString();
+        System.out.println(str1.intern() == str1);
+        System.out.println(str2.intern() == str2);
     }
 
 
