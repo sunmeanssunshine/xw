@@ -9,8 +9,5 @@
         <module name="xw" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="xw" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
