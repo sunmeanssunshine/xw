@@ -1,5 +1,7 @@
 package study.IoTest;
 
+import org.junit.Test;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -36,5 +38,10 @@ public class CopyFile {
         }
 
 
+    }
+
+    @Test
+    public void test() {
+        String file = "";
     }
 }

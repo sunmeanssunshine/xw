@@ -15,9 +15,9 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
     private static final int MIN_WORKER_NUMBERS = 1;
 
     private final LinkedList<Job> jobs = new LinkedList<>();
-    private final List<Worker> workers = Collections.unmodifiableList(new ArrayList<>());
+    private final List<Worker> workers = Collections.synchronizedList(new ArrayList<>());
     private int workerNum = DEFAULT_WORKER_NUMBERS;
-    private AtomicLong threadNum = new AtomicLong(0L);
+    private AtomicLong threadNum = new AtomicLong();
 
     public DefaultThreadPool() {
         initializeWorkers(DEFAULT_WORKER_NUMBERS);
@@ -85,6 +85,7 @@ public class DefaultThreadPool<Job extends Runnable> implements ThreadPool<Job> 
             Worker worker = new Worker();
             workers.add(worker);
             Thread thread = new Thread(worker, "ThreadPool-Worker-" + threadNum.incrementAndGet());
+            System.out.println("ThreadPool-Worker-" + threadNum.get());
             thread.start();
         }
     }
