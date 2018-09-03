@@ -1,9 +1,14 @@
 package io;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * Created by xuwei on 2017/12/15.
@@ -30,6 +35,25 @@ public class MyReadFile {
         File outFile = new File("d:/222.txt");
         FileOutputStream fileOutputStream = new FileOutputStream(outFile);
         IOUtils.copy(new FileInputStream(inFile), fileOutputStream);
+
+    }
+
+
+    @Test
+    public void zip() throws IOException {
+        String source = new String(Files.readAllBytes(Paths.get("1.txt")));
+        String zipSource = ZipUtils.zip(source);
+        String unZipSource = ZipUtils.unzip(zipSource);
+        String gZipSource = ZipUtils.gzip(source);
+        String unGZipSource = ZipUtils.gunzip(gZipSource);
+
+
+        System.out.println(source.length());
+        System.out.println(zipSource.length());
+        System.out.println(source.equals(unZipSource));
+
+        System.out.println(gZipSource.length());
+        System.out.println(source.equals(unGZipSource));
 
     }
 }
