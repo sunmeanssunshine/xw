@@ -2,6 +2,8 @@ package EventBusTest;
 
 import com.google.common.eventbus.EventBus;
 
+import java.util.Objects;
+
 /**
  * Created by xuwei on 2018/1/15.
  */

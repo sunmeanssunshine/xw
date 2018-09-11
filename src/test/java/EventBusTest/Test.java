@@ -1,5 +1,8 @@
 package EventBusTest;
 
+import java.util.Objects;
+import java.util.concurrent.atomic.LongAdder;
+
 /**
  * Created by xuwei on 2018/1/15.
  */
@@ -33,5 +36,13 @@ public class Test {
         EventBusCenter.register(observer1);
 
         EventBusCenter.post("test2");
+    }
+
+    @org.junit.Test
+    public void test3() {
+        System.out.println(Objects.deepEquals("1", "1"));
+        LongAdder longAdder = new LongAdder();
+        longAdder.decrement();
+        System.out.println(longAdder);
     }
 }
