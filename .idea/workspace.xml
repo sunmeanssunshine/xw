@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8eba97-cd7c-48fd-a3b6-ffab49754840" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Base64.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/thread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/thread/NewBookBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EventBusTest/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EventBusTest/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/thread/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/thread/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,20 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AsyncEventBus.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/AsyncEventBus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-907">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EventBusCenter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            <state relative-caret-position="429">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#377#378#0" expanded="true" />
@@ -62,47 +51,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/Test.java">
+      <file leaf-file-name="DataObserver2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/DataObserver2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="264">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Base64.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Base64.java">
+      <file leaf-file-name="Subscribe.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/Subscribe.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="726">
+              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZipUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/ZipUtils.java">
+      <file leaf-file-name="SubscriberRegistry.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/SubscriberRegistry.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5973">
-              <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="157">
+              <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AllowConcurrentEvents.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/AllowConcurrentEvents.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/thread/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="287">
+              <caret line="105" column="30" lean-forward="true" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,42 +99,49 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyReadFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/MyReadFile.java">
+      <file leaf-file-name="ArrayDeque.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayDeque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="43" column="75" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EventBus.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/EventBus.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2755">
-              <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Queues.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/Queues.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+            <state relative-caret-position="475">
+              <caret line="491" column="13" selection-start-line="491" selection-start-column="13" selection-end-line="491" selection-end-column="13" />
               <folding>
-                <element signature="e#2178#2179#0" expanded="true" />
-                <element signature="e#2214#2215#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#6627#6628#0" expanded="true" />
+                <element signature="e#6668#6669#0" expanded="true" />
+                <element signature="e#15891#15892#0" expanded="true" />
+                <element signature="e#15925#15926#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="Comparator.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Comparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="87" selection-end-column="21" />
+            <state relative-caret-position="-11155">
+              <caret line="184" column="39" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewBookBean.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/thread/NewBookBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Random.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Random.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9570">
+              <caret line="327" column="15" selection-start-line="327" selection-start-column="15" selection-end-line="327" selection-end-column="15" />
+              <folding>
+                <element signature="e#11985#11986#0" expanded="true" />
+                <element signature="e#12016#12017#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -201,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/study/streamDemo/FlatmpTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/concurrent/Thread/JoinCountDownLatchTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/concurrent/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/concurrent/AtomicIntegerArrayTest.java" />
@@ -248,10 +243,11 @@
         <option value="$PROJECT_DIR$/src/test/java/io/MyReadFile.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/StringCompression.java" />
         <option value="$PROJECT_DIR$/src/test/java/io/GZIPUtils.java" />
-        <option value="$PROJECT_DIR$/src/test/java/thread/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java" />
         <option value="$PROJECT_DIR$/src/test/java/EventBusTest/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Base64.java" />
+        <option value="$PROJECT_DIR$/src/test/java/thread/NewBookBean.java" />
+        <option value="$PROJECT_DIR$/src/test/java/thread/Test.java" />
       </list>
     </option>
   </component>
@@ -304,10 +300,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="320" />
+    <option name="y" value="94" />
+    <option name="width" value="1598" />
+    <option name="height" value="937" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -318,6 +314,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -377,7 +374,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xw" type="b2602c69:ProjectViewProjectNode" />
@@ -430,7 +427,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -456,9 +452,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79927\IdeaProjects\xw" />
+      <recent name="C:\Users\79927\IdeaProjects\xw\src\test\java\io" />
+      <recent name="F:\xw\src\main\resources\templates" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="annotation" />
       <recent name="hello" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="thread" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\79927\IdeaProjects\xw\src\test\java\io" />
@@ -466,11 +470,6 @@
       <recent name="F:\xw\src\main\java\hello" />
       <recent name="F:\xw\src\main\resources\static" />
       <recent name="F:\xw\src\test\java" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\79927\IdeaProjects\xw" />
-      <recent name="C:\Users\79927\IdeaProjects\xw\src\test\java\io" />
-      <recent name="F:\xw\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -485,36 +484,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Base64">
+  <component name="RunManager" selected="JUnit.Test.arrayDeque">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="Base64" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Base64" />
-      <module name="xw" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EventBusTest.Test" />
-      <module name="xw" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="EventBusTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.Test" />
-      <module name="xw" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -554,19 +526,19 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration name="MyReadFile.zip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.arrayDeque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.MyReadFile" />
-      <option name="METHOD_NAME" value="zip" />
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.Test" />
+      <option name="METHOD_NAME" value="arrayDeque" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -577,18 +549,87 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="Test.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test.stack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xw" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="EventBusTest.*" />
+          <option name="PATTERN" value="thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="EventBusTest" />
-      <option name="MAIN_CLASS_NAME" value="EventBusTest.Test" />
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.Test" />
+      <option name="METHOD_NAME" value="stack" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.Test" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.Test" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Test.test3 (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="thread" />
+      <option name="MAIN_CLASS_NAME" value="thread.Test" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -738,19 +779,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.MyReadFile.zip" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
-      <item itemvalue="JUnit.Test.test3" />
-      <item itemvalue="Application.Base64" />
+      <item itemvalue="JUnit.Test.test1" />
+      <item itemvalue="JUnit.Test.test2" />
+      <item itemvalue="JUnit.Test.test3 (1)" />
+      <item itemvalue="JUnit.Test.stack" />
+      <item itemvalue="JUnit.Test.arrayDeque" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Base64" />
-        <item itemvalue="JUnit.Test.test3" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="JUnit.MyReadFile.zip" />
+        <item itemvalue="JUnit.Test.arrayDeque" />
+        <item itemvalue="JUnit.Test.stack" />
+        <item itemvalue="JUnit.Test.test3 (1)" />
+        <item itemvalue="JUnit.Test.test2" />
+        <item itemvalue="JUnit.Test.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -863,7 +904,8 @@
       <workItem from="1535438076608" duration="9688000" />
       <workItem from="1535613812345" duration="13000" />
       <workItem from="1535900267293" duration="5236000" />
-      <workItem from="1536121971879" duration="7587000" />
+      <workItem from="1536121971879" duration="10314000" />
+      <workItem from="1537427632176" duration="5417000" />
     </task>
     <task id="LOCAL-00001" summary="一些补充&#10;1.关于hashcode,equals">
       <created>1494924971903</created>
@@ -1033,31 +1075,17 @@
       <option name="project" value="LOCAL" />
       <updated>1535955418284</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="some test">
+      <created>1536632601198</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1536632601198</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RateLimitInputStream - 2018.08.29 at 09h 14m 14s.xml">
-      <configuration name="RateLimitInputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RateLimitInputStream - 2018.08.29 at 09h 14m 55s.xml">
-      <configuration name="RateLimitInputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RateLimitInputStream - 2018.08.29 at 09h 15m 09s.xml">
-      <configuration name="RateLimitInputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RateLimitInputStream - 2018.08.29 at 09h 15m 26s.xml">
-      <configuration name="RateLimitInputStream" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyReadFile_zip - 2018.09.02 at 23h 09m 29s.xml">
-      <configuration name="MyReadFile.zip" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyReadFile_zip - 2018.09.02 at 23h 15m 10s.xml">
-      <configuration name="MyReadFile.zip" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MyReadFile_zip - 2018.09.02 at 23h 17m 06s.xml">
-      <configuration name="MyReadFile.zip" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MyReadFile_zip - 2018.09.03 at 09h 31m 54s.xml">
       <configuration name="MyReadFile.zip" configurationId="JUnit" />
     </history-entry>
@@ -1067,9 +1095,30 @@
     <history-entry file="Test_test3 - 2018.09.06 at 15h 31m 36s.xml">
       <configuration name="Test.test3" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Test_test1 - 2018.09.11 at 10h 32m 19s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1 - 2018.09.11 at 10h 32m 47s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test1 - 2018.09.11 at 11h 02m 09s.xml">
+      <configuration name="Test.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test2 - 2018.09.20 at 15h 17m 17s.xml">
+      <configuration name="Test.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_test3_(1) - 2018.09.20 at 15h 59m 22s.xml">
+      <configuration name="Test.test3 (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_stack - 2018.09.20 at 16h 25m 19s.xml">
+      <configuration name="Test.stack" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Test_arrayDeque - 2018.09.20 at 16h 57m 10s.xml">
+      <configuration name="Test.arrayDeque" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="785396000" />
+    <option name="totallyTimeSpent" value="793540000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1081,7 +1130,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50801283" side_tool="true" weight="0.36107987" />
@@ -1101,26 +1151,26 @@
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3243243" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.4029018" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49198717" weight="0.35825893" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.4029018" />
       <window_info anchor="bottom" id="Spring" order="9" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.25223213" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.4356223" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.2414163" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32939914" />
       <window_info id="Web" order="8" sideWeight="0.5176991" side_tool="true" weight="0.20592485" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.50884956" side_tool="true" weight="0.20592485" />
-      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
+      <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3295838" />
       <window_info anchor="bottom" id="REST Client" order="7" weight="0.43634385" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3295964" />
+      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32939914" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32700893" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1147,11 +1197,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843792" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.316474" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32756326" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.70572567" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3277897" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843792" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="11" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1160,7 +1210,7 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" weight="0.24839056" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32959402" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843792" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32959402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52330226" />
     </layout-to-restore>
@@ -1214,7 +1264,8 @@
     <MESSAGE value="一些提交" />
     <MESSAGE value="自定义 http服务器 -f" />
     <MESSAGE value="字符串zip,gzip" />
-    <option name="LAST_COMMIT_MESSAGE" value="字符串zip,gzip" />
+    <MESSAGE value="some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="some test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,7 +1442,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="133" />
+      <option name="time" value="134" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1448,55 +1499,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/study/IoTest/Io.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/study/IoTest/CopyFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/rxjava2/Demo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/study/rxjava/Demo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1617">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/web/SimpleHttpServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2673">
-          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/InfluxDB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/impl/InfluxDBImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6204">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/QuartzTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1639,9 +1641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1652,38 +1651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/DataObserver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/annotations/Beta.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-132">
           <caret line="24" column="90" lean-forward="true" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/SubscriberRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1008">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/Subscribe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/AllowConcurrentEvents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1705,23 +1676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
           <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3350#3518#0" expanded="true" />
-            <element signature="e#3517#3518#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="185" column="5" lean-forward="true" selection-start-line="185" selection-start-column="5" selection-end-line="185" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6627#6628#0" expanded="true" />
-            <element signature="e#6668#6669#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1736,10 +1690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-          <folding>
-            <element signature="e#2178#2179#0" expanded="true" />
-            <element signature="e#2214#2215#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1767,18 +1717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/atomic/LongAdder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1008">
@@ -1790,19 +1728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/thread/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1810,9 +1735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5973">
           <caret line="181" column="13" selection-start-line="181" selection-start-column="13" selection-end-line="181" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1825,8 +1747,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Base64.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="175">
           <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StaticClassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13365">
+          <caret line="446" column="11" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
+          <folding>
+            <element signature="e#15020#15021#0" expanded="true" />
+            <element signature="e#15084#15085#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9570">
+          <caret line="327" column="15" selection-start-line="327" selection-start-column="15" selection-end-line="327" selection-end-column="15" />
+          <folding>
+            <element signature="e#11985#11986#0" expanded="true" />
+            <element signature="e#12016#12017#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/DataObserver2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/AllowConcurrentEvents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/Subscribe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/SubscriberRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="155" column="19" selection-start-line="155" selection-start-column="19" selection-end-line="155" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/thread/NewBookBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11155">
+          <caret line="184" column="39" selection-start-line="184" selection-start-column="27" selection-end-line="184" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="491" column="13" selection-start-line="491" selection-start-column="13" selection-end-line="491" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6627#6628#0" expanded="true" />
+            <element signature="e#6668#6669#0" expanded="true" />
+            <element signature="e#15891#15892#0" expanded="true" />
+            <element signature="e#15925#15926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/thread/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="105" column="30" lean-forward="true" selection-start-line="105" selection-start-column="30" selection-end-line="105" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
