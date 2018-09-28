@@ -112,4 +112,21 @@ public class Test {
             System.out.println(arrayDeque.pop());
         }
     }
+
+    @org.junit.Test
+    public void sort() {
+        String[] arr = {"rr", "e", "4", "t", "0"};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    @org.junit.Test
+    public void arrayList() {
+        List<String> strings = new ArrayList<>();
+        strings.add("1");
+        strings.add("2");
+        strings.add("3");
+        strings.add("4");
+        System.out.println(strings.contains("3"));
+    }
 }
