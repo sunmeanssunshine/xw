@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.io.File;
 import java.util.*;
+import java.util.stream.Stream;
 
 /**
  * Created by xuwei on 2017/6/6.
@@ -56,5 +57,10 @@ public class EnumTest {
          * pom.xml
          * xw.iml
          */
+    }
+
+    @Test
+    public void test3() {
+        Stream.generate(Math::random).limit(10).forEach(System.out::println);
     }
 }
