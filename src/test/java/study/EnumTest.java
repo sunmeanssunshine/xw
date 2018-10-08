@@ -4,6 +4,8 @@ import org.junit.Test;
 
 import java.io.File;
 import java.util.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 import java.util.stream.Stream;
 
 /**
@@ -60,7 +62,29 @@ public class EnumTest {
     }
 
     @Test
-    public void test3() {
+    public void test3() throws ExecutionException, InterruptedException {
         Stream.generate(Math::random).limit(10).forEach(System.out::println);
+        CompletableFuture<Integer> future = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(4000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return 1;});
+        CompletableFuture<Integer> future1 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(1000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return 2;});
+        CompletableFuture<Integer> future2 = CompletableFuture.supplyAsync(() -> {
+            try {
+                Thread.sleep(4000L);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            return 3;});
+        Stream.of(future.get(), future1.get(), future2.get()).forEach(System.out::println);
     }
 }
