@@ -6,6 +6,7 @@ import java.io.File;
 import java.util.*;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
@@ -86,5 +87,16 @@ public class EnumTest {
             }
             return 3;});
         Stream.of(future.get(), future1.get(), future2.get()).forEach(System.out::println);
+    }
+
+    @Test
+    public void test4() {
+        List<Clothes> clothes = Arrays.asList(new Clothes[] {
+           new Clothes("001", Size.SMALL),  new Clothes("002", Size.LAGER), new Clothes("003", Size.MEDIUM),
+           new Clothes("004", Size.SMALL),  new Clothes("005", Size.LAGER), new Clothes("006", Size.LAGER),
+           new Clothes("007", Size.MEDIUM),  new Clothes("008", Size.LAGER), new Clothes("009", Size.LAGER)
+        });
+        Map<Size, Long> map = clothes.stream().collect(Collectors.groupingBy(Clothes::getSize, Collectors.counting()));
+        System.out.println(map);
     }
 }
