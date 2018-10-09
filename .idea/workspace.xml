@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8eba97-cd7c-48fd-a3b6-ffab49754840" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/Clothes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/Size.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/Tadiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/study/serialization/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/study/EnumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/EnumTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,20 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Demo2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/rxjava2/Demo2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/study/EnumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1642">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="173">
+              <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,29 +50,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EnumMap.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/EnumMap.java">
+      <file leaf-file-name="Tadiao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/study/Tadiao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3539">
-              <caret line="78" column="13" selection-start-line="78" selection-start-column="13" selection-end-line="78" selection-end-column="13" />
+            <state relative-caret-position="54">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/stream/Collectors.java">
+      <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/study/MapTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3110">
-              <caret line="901" column="57" lean-forward="true" selection-start-line="901" selection-start-column="57" selection-end-line="901" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Clothes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/Clothes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="371">
+              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,55 +75,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Size.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/Size.java">
+      <file leaf-file-name="EnumSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/EnumSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="2681">
+              <caret line="356" column="59" lean-forward="true" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Action1.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.0/rxjava-1.3.0-sources.jar!/rx/functions/Action1.java">
+      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+              <caret line="1168" column="19" selection-start-line="1168" selection-start-column="14" selection-end-line="1168" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
+      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/study/serialization/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="260" column="10" selection-start-line="260" selection-start-column="10" selection-end-line="260" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Callable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/concurrent/Callable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="57" column="30" lean-forward="true" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observable.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.0/rxjava-1.3.0-sources.jar!/rx/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="5064" column="64" selection-start-line="5064" selection-start-column="52" selection-end-line="5064" selection-end-column="64" />
+            <state relative-caret-position="198">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#114354#114355#0" expanded="true" />
-                <element signature="e#114415#114416#0" expanded="true" />
-                <element signature="e#146089#146090#0" expanded="true" />
-                <element signature="e#146134#146135#0" expanded="true" />
-                <element signature="e#417576#417577#0" expanded="true" />
-                <element signature="e#417614#417615#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/study/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1627">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TT.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/study/TT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-322">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/study/ReflectTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObjectInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/ObjectInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1198">
+              <caret line="378" column="14" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -151,8 +150,8 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -180,6 +179,7 @@
       <find>whenComplete</find>
       <find>thenCombine</find>
       <find>guava</find>
+      <find>merge</find>
     </findStrings>
     <replaceStrings>
       <replace>thinkingInJavaCode.net.mindview</replace>
@@ -194,9 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/CompletableFutureTest/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/EventBusTest/DataObserver2.java" />
-        <option value="$PROJECT_DIR$/src/test/java/T/FanXing.java" />
         <option value="$PROJECT_DIR$/src/test/java/generics/FanXing.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/streamDemo/ThrowException.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/concurrent/AtomicIntegerTest.java" />
@@ -245,6 +242,9 @@
         <option value="$PROJECT_DIR$/src/test/java/study/Size.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/Clothes.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/EnumTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/study/serialization/Person.java" />
+        <option value="$PROJECT_DIR$/src/test/java/study/Tadiao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/study/MapTest.java" />
       </list>
     </option>
   </component>
@@ -297,8 +297,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
-    <option name="y" value="155" />
+    <option name="x" value="320" />
+    <option name="y" value="94" />
     <option name="width" value="1598" />
     <option name="height" value="937" />
   </component>
@@ -371,6 +371,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="serialization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xw" type="b2602c69:ProjectViewProjectNode" />
@@ -481,20 +490,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EnumTest.test4">
+  <component name="RunManager" selected="JUnit.MapTest.hashMapTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
-    <configuration name="EnumTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.EnumTest" />
-      <module name="xw" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -533,29 +531,6 @@
       <setting name="launchBrowser" value="true" />
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
-    </configuration>
-    <configuration name="EnumTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="study" />
-      <option name="MAIN_CLASS_NAME" value="study.EnumTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="EnumTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xw" />
@@ -616,6 +591,52 @@
       <option name="PACKAGE_NAME" value="study" />
       <option name="MAIN_CLASS_NAME" value="study.EnumTest" />
       <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MapTest.hashMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="study" />
+      <option name="MAIN_CLASS_NAME" value="study.MapTest" />
+      <option name="METHOD_NAME" value="hashMapTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TT.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="study" />
+      <option name="MAIN_CLASS_NAME" value="study.TT" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -764,19 +785,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="Application.EnumTest" />
-      <item itemvalue="JUnit.EnumTest.test" />
       <item itemvalue="JUnit.EnumTest.test2" />
       <item itemvalue="JUnit.EnumTest.test3" />
       <item itemvalue="JUnit.EnumTest.test4" />
+      <item itemvalue="JUnit.TT.test1" />
+      <item itemvalue="JUnit.MapTest.hashMapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MapTest.hashMapTest" />
+        <item itemvalue="JUnit.TT.test1" />
         <item itemvalue="JUnit.EnumTest.test4" />
         <item itemvalue="JUnit.EnumTest.test3" />
         <item itemvalue="JUnit.EnumTest.test2" />
-        <item itemvalue="JUnit.EnumTest.test" />
-        <item itemvalue="Application.EnumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -892,7 +913,7 @@
       <workItem from="1536121971879" duration="10314000" />
       <workItem from="1537427632176" duration="5417000" />
       <workItem from="1537860592258" duration="3728000" />
-      <workItem from="1538039326349" duration="31529000" />
+      <workItem from="1538039326349" duration="40389000" />
     </task>
     <task id="LOCAL-00001" summary="一些补充&#10;1.关于hashcode,equals">
       <created>1494924971903</created>
@@ -1118,22 +1139,17 @@
       <option name="project" value="LOCAL" />
       <updated>1538963781948</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="EnumMap demo">
+      <created>1538966786436</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1538966786436</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EnumTest_test - 2018.09.29 at 11h 36m 41s.xml">
-      <configuration name="EnumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_test - 2018.09.29 at 11h 36m 55s.xml">
-      <configuration name="EnumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_test - 2018.09.29 at 11h 37m 28s.xml">
-      <configuration name="EnumTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EnumTest_test2 - 2018.09.29 at 15h 11m 32s.xml">
-      <configuration name="EnumTest.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EnumTest_test3 - 2018.09.29 at 15h 14m 09s.xml">
       <configuration name="EnumTest.test3" configurationId="JUnit" />
     </history-entry>
@@ -1152,9 +1168,21 @@
     <history-entry file="EnumTest_test4 - 2018.10.08 at 10h 23m 50s.xml">
       <configuration name="EnumTest.test4" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TT_test1 - 2018.10.09 at 10h 27m 27s.xml">
+      <configuration name="TT.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_hashMapTest - 2018.10.09 at 16h 03m 17s.xml">
+      <configuration name="MapTest.hashMapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_hashMapTest - 2018.10.09 at 16h 03m 29s.xml">
+      <configuration name="MapTest.hashMapTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MapTest_hashMapTest - 2018.10.09 at 16h 04m 23s.xml">
+      <configuration name="MapTest.hashMapTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="828797000" />
+    <option name="totallyTimeSpent" value="837657000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1171,37 +1199,37 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50801283" side_tool="true" weight="0.36107987" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3731527" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="4" />
-      <window_info anchor="bottom" id="Statistic" order="8" />
+      <window_info anchor="bottom" id="Statistic" order="10" weight="0.32924107" />
       <window_info anchor="right" id="Database" order="11" weight="0.32939914" />
       <window_info id="Structure" order="1" sideWeight="0.5119403" side_tool="true" weight="0.23015021" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52790177" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32772166" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49712643" weight="0.36936936" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49712643" weight="0.36936936" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="7" />
-      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3243243" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3243243" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.4642857" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49198717" weight="0.5145089" />
-      <window_info anchor="bottom" id="Spring" order="9" weight="0.32924107" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.58147323" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="18" visible="true" weight="0.4642857" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49198717" weight="0.51339287" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32924107" />
+      <window_info anchor="bottom" id="Terminal" order="15" weight="0.58147323" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.19742489" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32939914" />
       <window_info id="Web" order="8" sideWeight="0.5176991" side_tool="true" weight="0.20592485" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.50884956" side_tool="true" weight="0.20592485" />
       <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
-      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.3295838" />
-      <window_info anchor="bottom" id="REST Client" order="7" weight="0.43634385" />
+      <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3295838" />
+      <window_info anchor="bottom" id="REST Client" order="9" weight="0.43634385" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.3295964" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.3295964" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32939914" />
       <window_info id="Nl-Palette" order="2" />
@@ -1307,7 +1335,8 @@
     <MESSAGE value="1.collections remove removeAll&#10;2.File stream" />
     <MESSAGE value="stream generate" />
     <MESSAGE value="vert-x 群里求助问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="vert-x 群里求助问题" />
+    <MESSAGE value="EnumMap demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="EnumMap demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1370,12 +1399,6 @@
           <line>27</line>
           <properties />
           <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/study/ReflectTest.java</url>
-          <line>19</line>
-          <properties />
-          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/study/streamDemo/StreamTest.java</url>
@@ -1553,79 +1576,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/StringCompression.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/GZIPUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/DataObserver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/annotations/Beta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
-          <caret line="24" column="90" lean-forward="true" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/Subscriber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122">
-          <caret line="33" column="3" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/DeadEvent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/Dispatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="82" column="8" lean-forward="true" selection-start-line="82" selection-start-column="8" selection-end-line="87" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/collect/Queues.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/AsyncEventBus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-907">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/人才引进/徐伟/Windows 子系统.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1936,10 +1886,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/AbstractSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/EnumSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2681">
+          <caret line="356" column="59" lean-forward="true" selection-start-line="356" selection-start-column="59" selection-end-line="356" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="1168" column="19" selection-start-line="1168" selection-start-column="14" selection-end-line="1168" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1198">
+          <caret line="378" column="14" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/study/serialization/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/study/TT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/study/ReflectTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/study/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1627">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/study/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1642">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="173">
+          <caret line="31" column="36" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/study/Tadiao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding>
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/study/MapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
