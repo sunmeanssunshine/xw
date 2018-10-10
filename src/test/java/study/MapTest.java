@@ -2,9 +2,7 @@ package study;
 
 import org.junit.Test;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Created by xuw-e on 2018/10/9.
@@ -38,5 +36,16 @@ public class MapTest {
          * 5
          * 4
          */
+    }
+
+    @Test
+    public void setTest() {
+        SortedSet<String> stringSortedSet = new TreeSet<>(String::compareToIgnoreCase);
+        stringSortedSet.add("a");
+        stringSortedSet.add("c");
+        stringSortedSet.add("e");
+        stringSortedSet.add("F");
+        stringSortedSet.add("f");
+        System.out.println(stringSortedSet);
     }
 }
