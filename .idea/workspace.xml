@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8eba97-cd7c-48fd-a3b6-ffab49754840" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/MyRateLimiter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Child.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,60 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnumTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/EnumTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RateLimitInputStream.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/RateLimitInputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-149">
-              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tadiao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/Tadiao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#144#145#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/MapTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MyRateLimiter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/study/MyRateLimiter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+            <state relative-caret-position="1485">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QueueDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="QueueDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="389">
+              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,46 +62,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
+      <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="1238" column="29" selection-start-line="1238" selection-start-column="15" selection-end-line="1238" selection-end-column="37" />
+            <state relative-caret-position="1089">
+              <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
               <folding>
-                <element signature="e#47538#47539#0" expanded="true" />
-                <element signature="e#47602#47603#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeSet.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/TreeSet.java">
+      <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-856">
-              <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
+            <state relative-caret-position="484">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
-                <element signature="e#4697#4698#0" expanded="true" />
-                <element signature="e#4742#4743#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/Test.java">
+      <file leaf-file-name="Child.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Child.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1627">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="257">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/ReflectTest.java">
+      <file leaf-file-name="Som.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="99">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfluxDB.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/InfluxDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InfluxDBImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/impl/InfluxDBImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1188">
+              <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5346">
+              <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -207,8 +193,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/study/concurrent/AtomicIntegerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/forkjoin/CountTask.java" />
         <option value="$PROJECT_DIR$/src/test/java/quartz/QuartzTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/quartz/MyJob.java" />
         <option value="$PROJECT_DIR$/src/test/java/date/Test.java" />
@@ -257,7 +241,9 @@
         <option value="$PROJECT_DIR$/src/test/java/study/Tadiao.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/MapTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/MyRateLimiter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Child.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java" />
       </list>
     </option>
   </component>
@@ -310,8 +296,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="670" />
-    <option name="y" value="70" />
+    <option name="x" value="230" />
+    <option name="y" value="50" />
     <option name="width" value="1598" />
     <option name="height" value="937" />
   </component>
@@ -323,7 +309,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -375,49 +361,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rxjava2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="serialization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="thread" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="xw" type="b2602c69:ProjectViewProjectNode" />
@@ -488,7 +432,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -546,7 +490,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueDemo.priorityQueue">
+  <component name="RunManager" selected="JUnit.QueueDemo.test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -599,29 +543,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration name="MapTest.setTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="study" />
-      <option name="MAIN_CLASS_NAME" value="study.MapTest" />
-      <option name="METHOD_NAME" value="setTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="MyRateLimiter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xw" />
       <extension name="coverage">
@@ -658,6 +579,29 @@
       <option name="PACKAGE_NAME" value="study.queue" />
       <option name="MAIN_CLASS_NAME" value="study.queue.QueueDemo" />
       <option name="METHOD_NAME" value="priorityQueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="QueueDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xw" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="study.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="study.queue" />
+      <option name="MAIN_CLASS_NAME" value="study.queue.QueueDemo" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -829,19 +773,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.MapTest.setTest" />
       <item itemvalue="JUnit.RateLimitInputStream.test" />
       <item itemvalue="JUnit.MyRateLimiter.test" />
       <item itemvalue="Application.MyRateLimiter" />
       <item itemvalue="JUnit.QueueDemo.priorityQueue" />
+      <item itemvalue="JUnit.QueueDemo.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.QueueDemo.test" />
         <item itemvalue="JUnit.QueueDemo.priorityQueue" />
         <item itemvalue="Application.MyRateLimiter" />
         <item itemvalue="JUnit.MyRateLimiter.test" />
         <item itemvalue="JUnit.RateLimitInputStream.test" />
-        <item itemvalue="JUnit.MapTest.setTest" />
       </list>
     </recent_temporary>
   </component>
@@ -957,7 +901,9 @@
       <workItem from="1536121971879" duration="10314000" />
       <workItem from="1537427632176" duration="5417000" />
       <workItem from="1537860592258" duration="3728000" />
-      <workItem from="1538039326349" duration="45720000" />
+      <workItem from="1538039326349" duration="48561000" />
+      <workItem from="1539254497797" duration="1212000" />
+      <workItem from="1539315427222" duration="5818000" />
     </task>
     <task id="LOCAL-00001" summary="一些补充&#10;1.关于hashcode,equals">
       <created>1494924971903</created>
@@ -1204,16 +1150,17 @@
       <option name="project" value="LOCAL" />
       <updated>1539137122844</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="1.rateLimiter&#10;2.queueDemo">
+      <created>1539142387165</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1539142387165</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TT_test1 - 2018.10.09 at 10h 27m 27s.xml">
-      <configuration name="TT.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MapTest_hashMapTest - 2018.10.09 at 16h 03m 17s.xml">
-      <configuration name="MapTest.hashMapTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MapTest_hashMapTest - 2018.10.09 at 16h 03m 29s.xml">
       <configuration name="MapTest.hashMapTest" configurationId="JUnit" />
     </history-entry>
@@ -1238,9 +1185,15 @@
     <history-entry file="QueueDemo_priorityQueue - 2018.10.10 at 11h 07m 23s.xml">
       <configuration name="QueueDemo.priorityQueue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="QueueDemo_test - 2018.10.10 at 18h 40m 54s.xml">
+      <configuration name="QueueDemo.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="QueueDemo_test - 2018.10.10 at 18h 42m 14s.xml">
+      <configuration name="QueueDemo.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="842988000" />
+    <option name="totallyTimeSpent" value="852859000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1268,31 +1221,31 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52790177" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32772166" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49712643" weight="0.36936936" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3243243" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="18" weight="0.4017857" />
+      <window_info anchor="bottom" id="Version Control" order="18" visible="true" weight="0.3482143" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49198717" weight="0.59040177" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.58147323" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.19742489" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.16630901" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32939914" />
       <window_info id="Web" order="8" sideWeight="0.5176991" side_tool="true" weight="0.20592485" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.50884956" side_tool="true" weight="0.20592485" />
-      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
+      <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3295838" />
       <window_info anchor="bottom" id="REST Client" order="9" weight="0.43634385" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.3295964" />
+      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32939914" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49712643" weight="0.36936936" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32700893" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1319,20 +1272,20 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843792" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.316474" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32756326" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.70572567" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.3277897" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843792" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="11" weight="0.32939914" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Structure" order="1" weight="0.24839056" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32959402" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843792" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32959402" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52330226" />
     </layout-to-restore>
@@ -1397,7 +1350,8 @@
     <MESSAGE value="EnumMap demo" />
     <MESSAGE value="hashmap  linkedhashmap" />
     <MESSAGE value="sorted set" />
-    <option name="LAST_COMMIT_MESSAGE" value="sorted set" />
+    <MESSAGE value="1.rateLimiter&#10;2.queueDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.rateLimiter&#10;2.queueDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1580,7 +1534,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="166" />
+      <option name="time" value="167" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1637,52 +1591,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/MyReadFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="43" column="75" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Base64.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StaticClassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13365">
-          <caret line="446" column="11" selection-start-line="446" selection-start-column="11" selection-end-line="446" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Random.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9570">
-          <caret line="327" column="15" selection-start-line="327" selection-start-column="15" selection-end-line="327" selection-end-column="15" />
-          <folding>
-            <element signature="e#11985#11986#0" expanded="true" />
-            <element signature="e#12016#12017#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -1743,13 +1651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14553">
           <caret line="491" column="13" selection-start-line="491" selection-start-column="13" selection-end-line="491" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6627#6628#0" expanded="true" />
-            <element signature="e#6668#6669#0" expanded="true" />
-            <element signature="e#15891#15892#0" expanded="true" />
-            <element signature="e#15925#15926#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1781,16 +1682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="100" column="38" selection-start-line="100" selection-start-column="38" selection-end-line="100" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LeetCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1801,23 +1692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LongStringDiffCharNum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1853,14 +1731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="5064" column="64" selection-start-line="5064" selection-start-column="52" selection-end-line="5064" selection-end-column="64" />
-          <folding>
-            <element signature="e#114354#114355#0" expanded="true" />
-            <element signature="e#114415#114416#0" expanded="true" />
-            <element signature="e#146089#146090#0" expanded="true" />
-            <element signature="e#146134#146135#0" expanded="true" />
-            <element signature="e#417576#417577#0" expanded="true" />
-            <element signature="e#417614#417615#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1889,9 +1759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1941,9 +1808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1972,10 +1836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1983,16 +1843,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-856">
           <caret line="122" column="11" selection-start-line="122" selection-start-column="11" selection-end-line="122" selection-end-column="11" />
-          <folding>
-            <element signature="e#4697#4698#0" expanded="true" />
-            <element signature="e#4742#4743#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="38940">
           <caret line="1238" column="29" selection-start-line="1238" selection-start-column="15" selection-end-line="1238" selection-end-column="37" />
           <folding>
             <element signature="e#47538#47539#0" expanded="true" />
@@ -2003,7 +1859,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/study/EnumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="1056">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2013,7 +1869,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/RateLimitInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
+        <state relative-caret-position="330">
           <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2023,7 +1879,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/study/MapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
+        <state relative-caret-position="1485">
           <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2033,18 +1889,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/study/MyRateLimiter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="54" column="25" lean-forward="true" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+        <state relative-caret-position="1485">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/InfluxDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/impl/InfluxDBImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="81" column="9" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5346">
+          <caret line="162" column="15" selection-start-line="162" selection-start-column="15" selection-end-line="162" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Child.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="389">
+          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1089">
+          <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LeetCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
