@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba8eba97-cd7c-48fd-a3b6-ffab49754840" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/leetcode/TopK.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Child.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Child.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Som.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Som.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,23 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyRateLimiter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/study/MyRateLimiter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1485">
-              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="QueueDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+            <state relative-caret-position="1089">
+              <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,8 +54,8 @@
       <file leaf-file-name="ListNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1089">
-              <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
+            <state relative-caret-position="1188">
+              <caret line="39" column="65" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,17 +66,17 @@
       <file leaf-file-name="LeetCode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LeetCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="627">
+              <caret line="19" column="22" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            <state relative-caret-position="1650">
+              <caret line="51" selection-start-line="49" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,10 +84,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/Sort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1617">
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Child.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/model/Child.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
+            <state relative-caret-position="528">
               <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
             </state>
           </provider>
@@ -107,17 +105,24 @@
       <file leaf-file-name="Som.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="396">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InfluxDB.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/influxdb/influxdb-java/2.8/influxdb-java-2.8-sources.jar!/org/influxdb/InfluxDB.java">
+      <file leaf-file-name="TopK.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/TopK.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            <state relative-caret-position="359">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,9 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/quartz/QuartzTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/quartz/MyJob.java" />
-        <option value="$PROJECT_DIR$/src/test/java/date/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/date/Demo1.java" />
         <option value="$PROJECT_DIR$/src/test/java/guava/ImmutableCollections.java" />
         <option value="$PROJECT_DIR$/src/test/java/guava/StringTest.java" />
@@ -244,6 +246,9 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Child.java" />
         <option value="$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/Sort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Som.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/TopK.java" />
       </list>
     </option>
   </component>
@@ -309,7 +314,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -432,8 +439,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,17 +495,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueueDemo.test">
+  <component name="RunManager" selected="Application.TopK">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="MyRateLimiter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.MyRateLimiter" />
+    <configuration name="Som" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Som" />
+      <module name="xw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.Sort" />
       <module name="xw" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TopK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.TopK" />
+      <module name="xw" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -543,29 +564,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
     </configuration>
-    <configuration name="MyRateLimiter.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="study.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="study" />
-      <option name="MAIN_CLASS_NAME" value="study.MyRateLimiter" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration name="QueueDemo.priorityQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xw" />
       <extension name="coverage">
@@ -601,29 +599,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="study.queue" />
       <option name="MAIN_CLASS_NAME" value="study.queue.QueueDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="RateLimitInputStream.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xw" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="io" />
-      <option name="MAIN_CLASS_NAME" value="io.RateLimitInputStream" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -773,19 +748,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.Application" />
-      <item itemvalue="JUnit.RateLimitInputStream.test" />
-      <item itemvalue="JUnit.MyRateLimiter.test" />
-      <item itemvalue="Application.MyRateLimiter" />
       <item itemvalue="JUnit.QueueDemo.priorityQueue" />
       <item itemvalue="JUnit.QueueDemo.test" />
+      <item itemvalue="Application.Sort" />
+      <item itemvalue="Application.Som" />
+      <item itemvalue="Application.TopK" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopK" />
+        <item itemvalue="Application.Som" />
+        <item itemvalue="Application.Sort" />
         <item itemvalue="JUnit.QueueDemo.test" />
         <item itemvalue="JUnit.QueueDemo.priorityQueue" />
-        <item itemvalue="Application.MyRateLimiter" />
-        <item itemvalue="JUnit.MyRateLimiter.test" />
-        <item itemvalue="JUnit.RateLimitInputStream.test" />
       </list>
     </recent_temporary>
   </component>
@@ -903,7 +878,9 @@
       <workItem from="1537860592258" duration="3728000" />
       <workItem from="1538039326349" duration="48561000" />
       <workItem from="1539254497797" duration="1212000" />
-      <workItem from="1539315427222" duration="5818000" />
+      <workItem from="1539315427222" duration="7299000" />
+      <workItem from="1540123377639" duration="2284000" />
+      <workItem from="1540278935403" duration="1064000" />
     </task>
     <task id="LOCAL-00001" summary="一些补充&#10;1.关于hashcode,equals">
       <created>1494924971903</created>
@@ -1157,7 +1134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539142387165</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="1.判断链表是否有环">
+      <created>1539934465316</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1539934465316</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1193,7 +1177,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="852859000" />
+    <option name="totallyTimeSpent" value="857688000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -1221,31 +1205,31 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52790177" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32772166" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49712643" weight="0.36830357" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3243243" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="18" visible="true" weight="0.3482143" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49198717" weight="0.59040177" />
+      <window_info anchor="bottom" id="Version Control" order="18" weight="0.3013393" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49198717" visible="true" weight="0.4185268" />
       <window_info anchor="bottom" id="Spring" order="13" weight="0.32924107" />
       <window_info anchor="bottom" id="Terminal" order="15" weight="0.58147323" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.16630901" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4880597" visible="true" weight="0.20118026" />
       <window_info anchor="right" id="Bean Validation" order="7" weight="0.32939914" />
       <window_info id="Web" order="8" sideWeight="0.5176991" side_tool="true" weight="0.20592485" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="6" sideWeight="0.50884956" side_tool="true" weight="0.20592485" />
-      <window_info anchor="right" id="Properties" order="5" />
+      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
       <window_info anchor="bottom" id="Inspection Results" order="16" weight="0.3295838" />
       <window_info anchor="bottom" id="REST Client" order="9" weight="0.43634385" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Thumbnails" order="17" weight="0.3295964" />
-      <window_info anchor="right" id="Redis Servers" order="4" weight="0.32947975" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32939914" />
       <window_info id="Nl-Palette" order="2" />
-      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.49712643" weight="0.36936936" />
+      <window_info anchor="right" id="Properties" order="5" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32700893" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1272,7 +1256,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843792" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.316474" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32756326" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.70572567" />
       <window_info id="Nl-Palette" order="2" />
@@ -1282,7 +1266,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" weight="0.24839056" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32959402" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843792" />
@@ -1351,7 +1335,8 @@
     <MESSAGE value="hashmap  linkedhashmap" />
     <MESSAGE value="sorted set" />
     <MESSAGE value="1.rateLimiter&#10;2.queueDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.rateLimiter&#10;2.queueDemo" />
+    <MESSAGE value="1.判断链表是否有环" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.判断链表是否有环" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1591,20 +1576,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/EventBusCenter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/EventBusTest/DataObserver2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/23.0/guava-23.0-sources.jar!/com/google/common/eventbus/AllowConcurrentEvents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -1664,10 +1635,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9306">
           <caret line="316" column="41" selection-start-line="316" selection-start-column="41" selection-end-line="316" selection-end-column="41" />
-          <folding>
-            <element signature="e#11079#11080#0" expanded="true" />
-            <element signature="e#11117#11118#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1861,9 +1828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1881,9 +1845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1891,9 +1852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1485">
           <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1918,24 +1876,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Child.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
+        <state relative-caret-position="528">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/study/queue/QueueDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="43" column="1" lean-forward="true" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+        <state relative-caret-position="1089">
+          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1944,8 +1895,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ListNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="39" column="65" lean-forward="true" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
+        <state relative-caret-position="1188">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1954,17 +1905,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/LeetCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="627">
+          <caret line="19" column="22" selection-start-line="9" selection-start-column="8" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ReverseLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        <state relative-caret-position="1650">
+          <caret line="51" selection-start-line="49" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Som.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/TopK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
           </folding>
         </state>
       </provider>

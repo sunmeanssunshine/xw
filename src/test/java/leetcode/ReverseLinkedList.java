@@ -62,4 +62,22 @@ public class ReverseLinkedList {
         }
         return false;
     }
+
+    /**
+     * Given a linked list, return the node where the cycle begins. If there is no cycle, return null.
+     * @param head
+     * @return
+     */
+    public ListNode detectCycle(ListNode head) {
+        Set<ListNode> nodes = new HashSet<>();
+        ListNode p = head;
+        while (p != null) {
+            if (nodes.contains(p)) {
+                return p;
+            }
+            nodes.add(p);
+            p = p.next;
+        }
+        return null;
+    }
 }
