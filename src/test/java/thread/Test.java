@@ -9,6 +9,8 @@ import java.util.stream.IntStream;
  */
 public class Test {
 
+    public final static ExecutorService EXECUTOR_SERVICE = Executors.newSingleThreadExecutor();
+
     public static void unsafeConcurrentUpdate() {
         //final Map<Integer, Integer> map = new HashMap<>();
         final Map<Integer, Integer> map = new ConcurrentHashMap<>();

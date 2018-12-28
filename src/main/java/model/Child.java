@@ -2,6 +2,8 @@ package model;
 
 import lombok.*;
 
+import java.util.List;
+
 /**
  * Created by xuwei on 2017/3/8.
  */
